@@ -1,8 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
+<html lang="en" class="hydrated"><head>
+  <meta charset="UTF-8"><style data-styles="">ion-icon{visibility:hidden}.hydrated{visibility:inherit}</style>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tourly - Travel agancy</title>
@@ -21,10 +18,8 @@
     - google font link
   -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
-    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
 </head>
 
 <body id="top">
@@ -33,9 +28,9 @@
     - #HEADER
   -->
 
-  <header class="header" data-header>
+  <header class="header active" data-header="">
 
-    <div class="overlay" data-overlay></div>
+    <div class="overlay" data-overlay=""></div>
 
     <div class="header-top">
       <div class="container">
@@ -43,29 +38,29 @@
         <a href="tel:+01123456790" class="helpline-box">
 
           <div class="icon-box">
-            <ion-icon name="call-outline"></ion-icon>
+            <ion-icon name="call-outline" role="img" class="md hydrated" aria-label="call outline"></ion-icon>
           </div>
 
           <div class="wrapper">
-            <p class="helpline-title">For Further Inquires :</p>
+            <p class="helpline-title">Contact us from India +919656268099</p>
 
-            <p class="helpline-number">+01 (123) 4567 90</p>
+            <p class="helpline-number"> Oman: +968 78204228 77353039 </p>
           </div>
 
         </a>
 
         <a href="#" class="logo">
-          <img src="./assets/images/logo.svg" alt="Tourly logo">
+          
         </a>
 
         <div class="header-btn-group">
 
           <button class="search-btn" aria-label="Search">
-            <ion-icon name="search"></ion-icon>
+            <ion-icon name="search" role="img" class="md hydrated" aria-label="search"></ion-icon>
           </button>
 
-          <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
-            <ion-icon name="menu-outline"></ion-icon>
+          <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn="">
+            <ion-icon name="menu-outline" role="img" class="md hydrated" aria-label="menu outline"></ion-icon>
           </button>
 
         </div>
@@ -80,25 +75,25 @@
 
           <li>
             <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
+              <ion-icon name="logo-facebook" role="img" class="md hydrated" aria-label="logo facebook"></ion-icon>
             </a>
           </li>
 
           <li>
             <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
+              <ion-icon name="logo-twitter" role="img" class="md hydrated" aria-label="logo twitter"></ion-icon>
             </a>
           </li>
 
           <li>
             <a href="#" class="social-link">
-              <ion-icon name="logo-youtube"></ion-icon>
+              <ion-icon name="logo-youtube" role="img" class="md hydrated" aria-label="logo youtube"></ion-icon>
             </a>
           </li>
 
         </ul>
 
-        <nav class="navbar" data-navbar>
+        <nav class="navbar" data-navbar="">
 
           <div class="navbar-top">
 
@@ -106,8 +101,8 @@
               <img src="./assets/images/logo-blue.svg" alt="Tourly logo">
             </a>
 
-            <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
+            <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn="">
+              <ion-icon name="close-outline" role="img" class="md hydrated" aria-label="close outline"></ion-icon>
             </button>
 
           </div>
@@ -115,27 +110,27 @@
           <ul class="navbar-list">
 
             <li>
-              <a href="#home" class="navbar-link" data-nav-link>home</a>
+              <a href="#home" class="navbar-link" data-nav-link="">home</a>
             </li>
 
             <li>
-              <a href="#" class="navbar-link" data-nav-link>about us</a>
+              <a href="#" class="navbar-link" data-nav-link="">about us</a>
             </li>
 
             <li>
-              <a href="#destination" class="navbar-link" data-nav-link>destination</a>
+              <a href="#destination" class="navbar-link" data-nav-link="">destination</a>
             </li>
 
             <li>
-              <a href="#package" class="navbar-link" data-nav-link>packages</a>
+              <a href="#package" class="navbar-link" data-nav-link="">packages</a>
             </li>
 
             <li>
-              <a href="#gallery" class="navbar-link" data-nav-link>gallery</a>
+              <a href="#gallery" class="navbar-link" data-nav-link="">gallery</a>
             </li>
 
             <li>
-              <a href="#contact" class="navbar-link" data-nav-link>contact us</a>
+              <a href="#contact" class="navbar-link" data-nav-link="">contact us</a>
             </li>
 
           </ul>
@@ -188,42 +183,7 @@
         - #TOUR SEARCH
       -->
 
-      <section class="tour-search">
-        <div class="container">
-
-          <form action="" class="tour-search-form">
-
-            <div class="input-wrapper">
-              <label for="destination" class="input-label">Search Destination*</label>
-
-              <input type="text" name="destination" id="destination" required placeholder="Enter Destination"
-                class="input-field">
-            </div>
-
-            <div class="input-wrapper">
-              <label for="people" class="input-label">Pax Number*</label>
-
-              <input type="number" name="people" id="people" required placeholder="No.of People" class="input-field">
-            </div>
-
-            <div class="input-wrapper">
-              <label for="checkin" class="input-label">Checkin Date**</label>
-
-              <input type="date" name="checkin" id="checkin" required class="input-field">
-            </div>
-
-            <div class="input-wrapper">
-              <label for="checkout" class="input-label">Checkout Date*</label>
-
-              <input type="date" name="checkout" id="checkout" required class="input-field">
-            </div>
-
-            <button type="submit" class="btn btn-secondary">Inquire now</button>
-
-          </form>
-
-        </div>
-      </section>
+      
 
 
 
@@ -258,11 +218,11 @@
                 <div class="card-content">
 
                   <div class="card-rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
+                    <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
+                    <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
+                    <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
+                    <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
                   </div>
 
                   <p class="card-subtitle">
@@ -292,11 +252,11 @@
                 <div class="card-content">
 
                   <div class="card-rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
+                    <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
+                    <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
+                    <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
+                    <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
                   </div>
 
                   <p class="card-subtitle">
@@ -326,11 +286,11 @@
                 <div class="card-content">
 
                   <div class="card-rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
+                    <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
+                    <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
+                    <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
+                    <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
                   </div>
 
                   <p class="card-subtitle">
@@ -400,7 +360,7 @@
 
                     <li class="card-meta-item">
                       <div class="meta-box">
-                        <ion-icon name="time"></ion-icon>
+                        <ion-icon name="time" role="img" class="md hydrated" aria-label="time"></ion-icon>
 
                         <p class="text">7D/6N</p>
                       </div>
@@ -408,7 +368,7 @@
 
                     <li class="card-meta-item">
                       <div class="meta-box">
-                        <ion-icon name="people"></ion-icon>
+                        <ion-icon name="people" role="img" class="md hydrated" aria-label="people"></ion-icon>
 
                         <p class="text">pax: 10</p>
                       </div>
@@ -416,7 +376,7 @@
 
                     <li class="card-meta-item">
                       <div class="meta-box">
-                        <ion-icon name="location"></ion-icon>
+                        <ion-icon name="location" role="img" class="md hydrated" aria-label="location"></ion-icon>
 
                         <p class="text">Malaysia</p>
                       </div>
@@ -433,11 +393,11 @@
                     <p class="reviews">(25 reviews)</p>
 
                     <div class="card-rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
+                      <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
+                      <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
+                      <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
+                      <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
                     </div>
 
                   </div>
@@ -474,7 +434,7 @@
 
                     <li class="card-meta-item">
                       <div class="meta-box">
-                        <ion-icon name="time"></ion-icon>
+                        <ion-icon name="time" role="img" class="md hydrated" aria-label="time"></ion-icon>
 
                         <p class="text">7D/6N</p>
                       </div>
@@ -482,7 +442,7 @@
 
                     <li class="card-meta-item">
                       <div class="meta-box">
-                        <ion-icon name="people"></ion-icon>
+                        <ion-icon name="people" role="img" class="md hydrated" aria-label="people"></ion-icon>
 
                         <p class="text">pax: 10</p>
                       </div>
@@ -490,7 +450,7 @@
 
                     <li class="card-meta-item">
                       <div class="meta-box">
-                        <ion-icon name="location"></ion-icon>
+                        <ion-icon name="location" role="img" class="md hydrated" aria-label="location"></ion-icon>
 
                         <p class="text">Malaysia</p>
                       </div>
@@ -507,11 +467,11 @@
                     <p class="reviews">(20 reviews)</p>
 
                     <div class="card-rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
+                      <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
+                      <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
+                      <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
+                      <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
                     </div>
 
                   </div>
@@ -548,7 +508,7 @@
 
                     <li class="card-meta-item">
                       <div class="meta-box">
-                        <ion-icon name="time"></ion-icon>
+                        <ion-icon name="time" role="img" class="md hydrated" aria-label="time"></ion-icon>
 
                         <p class="text">7D/6N</p>
                       </div>
@@ -556,7 +516,7 @@
 
                     <li class="card-meta-item">
                       <div class="meta-box">
-                        <ion-icon name="people"></ion-icon>
+                        <ion-icon name="people" role="img" class="md hydrated" aria-label="people"></ion-icon>
 
                         <p class="text">pax: 10</p>
                       </div>
@@ -564,7 +524,7 @@
 
                     <li class="card-meta-item">
                       <div class="meta-box">
-                        <ion-icon name="location"></ion-icon>
+                        <ion-icon name="location" role="img" class="md hydrated" aria-label="location"></ion-icon>
 
                         <p class="text">Malaysia</p>
                       </div>
@@ -581,11 +541,11 @@
                     <p class="reviews">(40 reviews)</p>
 
                     <div class="card-rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
+                      <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
+                      <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
+                      <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
+                      <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
                     </div>
 
                   </div>
@@ -714,13 +674,11 @@
         <div class="footer-brand">
 
           <a href="#" class="logo">
-            <img src="./assets/images/logo.svg" alt="Tourly logo">
+            <img src="./assets/images/logo.svg" alt="Zip Tourism logo">
           </a>
 
           <p class="footer-text">
-            Urna ratione ante harum provident, eleifend, vulputate molestiae proin fringilla, praesentium magna conubia
-            at
-            perferendis, pretium, aenean aut ultrices.
+            مشاريع زمان المتكامله ش م م - محافظة الداخلية
           </p>
 
         </div>
@@ -736,21 +694,31 @@
           <ul>
 
             <li class="contact-item">
-              <ion-icon name="call-outline"></ion-icon>
+              <ion-icon name="call-outline" role="img" class="md hydrated" aria-label="call outline"></ion-icon>
 
-              <a href="tel:+01123456790" class="contact-link">+01 (123) 4567 90</a>
+              <a href="tel:+96878294228" class="contact-link">+968 78204228</a>
+            </li>
+            
+            <li class="contact-item">
+              <ion-icon name="call-outline" role="img" class="md hydrated" aria-label="call outline"></ion-icon>
+
+              <a href="tel:+96877353039" class="contact-link">+968 77353039</a>
             </li>
 
             <li class="contact-item">
-              <ion-icon name="mail-outline"></ion-icon>
+              <ion-icon name="mail-outline" role="img" class="md hydrated" aria-label="mail outline"></ion-icon>
 
-              <a href="mailto:info.tourly.com" class="contact-link">info.tourly.com</a>
+              <a href="mailto:support@ziptourism.com" class="contact-link">support@ziptourism.com</a>
             </li>
 
             <li class="contact-item">
-              <ion-icon name="location-outline"></ion-icon>
+              <ion-icon name="mail-outline" role="img" class="md hydrated" aria-label="mail outline"></ion-icon>
 
-              <address>3146 Koontz, California</address>
+              <a href="mailto:book@ziptourism.com" class="contact-link">book@ziptourism.com</a>
+            </li><li class="contact-item">
+              <ion-icon name="location-outline" role="img" class="md hydrated" aria-label="location outline"></ion-icon>
+
+              <address>مشاريع زمان المتكامله ش م م - محافظة الداخلية</address>
             </li>
 
           </ul>
@@ -760,11 +728,11 @@
         <div class="footer-form">
 
           <p class="form-text">
-            Subscribe our newsletter for more update & news !!
+            Subscribe to our newsletter for more updates &amp; news !!
           </p>
 
           <form action="" class="form-wrapper">
-            <input type="email" name="email" class="input-field" placeholder="Enter Your Email" required>
+            <input type="email" name="email" class="input-field" placeholder="Enter Your Email" required="">
 
             <button type="submit" class="btn btn-secondary">Subscribe</button>
           </form>
@@ -777,8 +745,7 @@
     <div class="footer-bottom">
       <div class="container">
 
-        <p class="copyright">
-          &copy; 2022 <a href="">codewithsadee</a>. All rights reserved
+        <p class="copyright">© 2023<a href=""> Zaman Integrated Projects L.L.C</a>. All rights reserved
         </p>
 
         <ul class="footer-bottom-list">
@@ -788,7 +755,7 @@
           </li>
 
           <li>
-            <a href="#" class="footer-bottom-link">Term & Condition</a>
+            <a href="#" class="footer-bottom-link">Term &amp; Condition</a>
           </li>
 
           <li>
@@ -810,8 +777,8 @@
     - #GO TO TOP
   -->
 
-  <a href="#top" class="go-top" data-go-top>
-    <ion-icon name="chevron-up-outline"></ion-icon>
+  <a href="#top" class="go-top active" data-go-top="">
+    <ion-icon name="chevron-up-outline" role="img" class="md hydrated" aria-label="chevron up outline"></ion-icon>
   </a>
 
 
@@ -827,8 +794,8 @@
     - ionicon link
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-</body>
 
-</html>
+
+</body></html>
