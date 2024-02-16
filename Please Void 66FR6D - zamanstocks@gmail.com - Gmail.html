@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oman Visa Application</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+    <div class="container">
+        <h1>Oman Visa Application</h1>
+        <form id="visaApplicationForm" action="process.php" method="post">
+        <!-- Applicant's Information -->
+        <h2>Applicant's Information</h2>
+        <label for="givenName">Given Name(s):</label>
+        <input type="text" id="givenName" name="givenName" required><br>
+
+        <label for="familyName">Family Name:</label>
+        <input type="text" id="familyName" name="familyName" required><br>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br>
+
+        <label for="countryOfBirth">Country of Birth:</label>
+        <select id="countryOfBirth" name="countryOfBirth" required>
+            <!-- List of countries goes here -->
+        </select><br>
+
+        <label for="placeOfBirth">Place of Birth:</label>
+        <input type="text" id="placeOfBirth" name="placeOfBirth" required><br>
+
+        <!-- Travel Document Information -->
+        <h2>Travel Document Information</h2>
+        <label for="travelDocNumber">Travel Document Number:</label>
+        <input type="text" id="travelDocNumber" name="travelDocNumber" required><br>
+
+        <label for="travelDocType">Travel Document Type:</label>
+        <select id="travelDocType" name="travelDocType" required>
+            <option value="passport">Passport</option>
+            <option value="nationalID">National ID</option>
+            <!-- Add more document types as needed -->
+        </select><br>
+
+        <label for="issueDate">Issue Date:</label>
+        <input type="date" id="issueDate" name="issueDate" required><br>
+
+        <label for="expiryDate">Expiry Date:</label>
+        <input type="date" id="expiryDate" name="expiryDate" required><br>
+
+        <label for="placeOfIssue">Place of Issue:</label>
+        <input type="text" id="placeOfIssue" name="placeOfIssue" required><br>
+
+        <!-- Previous Visa Details -->
+        <h2>Previous Visa Details (if applicable)</h2>
+        <label for="previousVisa">Have you traveled to Oman previously?</label>
+        <input type="radio" id="yes" name="previousVisa" value="yes">
+        <label for="yes">Yes</label>
+        <input type="radio" id="no" name="previousVisa" value="no">
+        <label for="no">No</label><br>
+
+        <!-- Submit Button -->
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>
